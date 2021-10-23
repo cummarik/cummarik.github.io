@@ -1104,21 +1104,379 @@ a<span style="color: #66cc66;">,</span> b <span style="color: #66cc66;">=</span>
 		</details>
 		<details>
 			<summary>7.4</summary>
+			<pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">######## 2 #########</span>
+до
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 3 #########</span>
+<span style="color: #ff4500;">0</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 4 #########</span>
+<span style="color: #ff4500;">9</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 5 #########</span>
+бесконечно много раз
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 6 #########</span>
+<span style="color: #ff4500;">11</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 7 #########</span>
+<span style="color: #ff4500;">21</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 8 #########</span>
+a <span style="color: #66cc66;">=</span> <span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> <span style="color: black;">&#40;</span>a<span style="color: #66cc66;">!=</span><span style="color: #483d8b;">'КОНЕЦ'</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>a<span style="color: black;">&#41;</span>
+    a <span style="color: #66cc66;">=</span> <span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 9 #########</span>
+a <span style="color: #66cc66;">=</span> <span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> a <span style="color: #66cc66;">!=</span> <span style="color: #483d8b;">'КОНЕЦ'</span> <span style="color: #ff7700;font-weight:bold;">and</span> a <span style="color: #66cc66;">!=</span> <span style="color: #483d8b;">'конец'</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>a<span style="color: black;">&#41;</span>
+    a <span style="color: #66cc66;">=</span> <span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 10 #########</span>
+a<span style="color: #66cc66;">,</span> k <span style="color: #66cc66;">=</span> <span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> a <span style="color: #ff7700;font-weight:bold;">not</span> <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: black;">&#40;</span><span style="color: #483d8b;">'стоп'</span><span style="color: #66cc66;">,</span> <span style="color: #483d8b;">'хватит'</span><span style="color: #66cc66;">,</span> <span style="color: #483d8b;">'достаточно'</span><span style="color: black;">&#41;</span>:
+    k +<span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+    a <span style="color: #66cc66;">=</span> <span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>k<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 11 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> <span style="color: #ff7700;font-weight:bold;">not</span> n % <span style="color: #ff4500;">7</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>n<span style="color: black;">&#41;</span>
+    n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 12 #########</span>
+a <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+b <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> a <span style="color: #66cc66;">&gt;=</span> <span style="color: #ff4500;">0</span>:
+    b +<span style="color: #66cc66;">=</span> a
+    a <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>b<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 13 #########</span>
+n<span style="color: #66cc66;">,</span> k <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> <span style="color: #ff4500;">1</span> <span style="color: #66cc66;">&lt;=</span> n <span style="color: #66cc66;">&lt;=</span> <span style="color: #ff4500;">5</span>:
+    k +<span style="color: #66cc66;">=</span> n <span style="color: #66cc66;">==</span> <span style="color: #ff4500;">5</span>
+    n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>k<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 14 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>n // <span style="color: #ff4500;">25</span> + n % <span style="color: #ff4500;">25</span> // <span style="color: #ff4500;">10</span> + n % <span style="color: #ff4500;">25</span> % <span style="color: #ff4500;">10</span> // <span style="color: #ff4500;">5</span> + n % <span style="color: #ff4500;">5</span><span style="color: black;">&#41;</span></pre>
 		</details>
 		<details>
-			<summary></summary>
+			<summary>7.5</summary>
+			<pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">######## 2 #########</span>
+<span style="color: #ff4500;">120</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 3 #########</span>
+<span style="color: #ff4500;">5</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 4 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>n % <span style="color: #ff4500;">10</span><span style="color: black;">&#41;</span>
+    n <span style="color: #66cc66;">=</span> n // <span style="color: #ff4500;">10</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 5 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>n % <span style="color: #ff4500;">10</span><span style="color: #66cc66;">,</span> end<span style="color: #66cc66;">=</span><span style="color: #483d8b;">&quot;&quot;</span><span style="color: black;">&#41;</span>
+    n <span style="color: #66cc66;">=</span> n // <span style="color: #ff4500;">10</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 6 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+n1 <span style="color: #66cc66;">=</span> <span style="color: #008000;">str</span><span style="color: black;">&#40;</span>n<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;Максимальная цифра равна&quot;</span><span style="color: #66cc66;">,</span><span style="color: #008000;">max</span><span style="color: black;">&#40;</span>n1<span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;Минимальная цифра равна&quot;</span><span style="color: #66cc66;">,</span><span style="color: #008000;">min</span><span style="color: black;">&#40;</span>n1<span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 7 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+b <span style="color: #66cc66;">=</span> n
+sum_n <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span>
+count <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span>
+mult <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n <span style="color: #66cc66;">!=</span> <span style="color: #ff4500;">0</span>:
+    sum_n +<span style="color: #66cc66;">=</span> n % <span style="color: #ff4500;">10</span>
+    count +<span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+    mult *<span style="color: #66cc66;">=</span> n % <span style="color: #ff4500;">10</span>
+    n <span style="color: #66cc66;">=</span> n // <span style="color: #ff4500;">10</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>sum_n<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>count<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>mult<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>sum_n / count<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>b // <span style="color: black;">&#40;</span><span style="color: #ff4500;">10</span> ** <span style="color: black;">&#40;</span>count - <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: black;">&#40;</span>b // <span style="color: black;">&#40;</span><span style="color: #ff4500;">10</span> ** <span style="color: black;">&#40;</span>count - <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>+<span style="color: black;">&#40;</span>b%<span style="color: #ff4500;">10</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 8 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">99</span>:
+    n //<span style="color: #66cc66;">=</span> <span style="color: #ff4500;">10</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>n % <span style="color: #ff4500;">10</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 9 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+n1 <span style="color: #66cc66;">=</span> <span style="color: #008000;">str</span><span style="color: black;">&#40;</span>n<span style="color: black;">&#41;</span>
+z <span style="color: #66cc66;">=</span> <span style="color: #008000;">max</span><span style="color: black;">&#40;</span>n1<span style="color: black;">&#41;</span>
+x <span style="color: #66cc66;">=</span> <span style="color: #008000;">min</span><span style="color: black;">&#40;</span>n1<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">if</span> z <span style="color: #66cc66;">==</span> x:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;YES&quot;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">else</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;NO&quot;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 10 #########</span>
+n<span style="color: #66cc66;">,</span>b <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span><span style="color: #66cc66;">,</span><span style="color: #483d8b;">'YES'</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n // <span style="color: #ff4500;">10</span> <span style="color: #66cc66;">!=</span> <span style="color: #ff4500;">0</span> :
+    a <span style="color: #66cc66;">=</span> n % <span style="color: #ff4500;">10</span>  
+    n <span style="color: #66cc66;">=</span> n // <span style="color: #ff4500;">10</span>
+    <span style="color: #ff7700;font-weight:bold;">if</span> a <span style="color: #66cc66;">&gt;</span> n % <span style="color: #ff4500;">10</span>:
+        b <span style="color: #66cc66;">=</span> <span style="color: #483d8b;">'NO'</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>b<span style="color: black;">&#41;</span></pre>
 		</details>
 		<details>
-			<summary></summary>
+			<summary>7.6</summary>
+			<pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">######## 2 #########</span>
+<span style="color: #ff4500;">0</span>*<span style="color: #ff4500;">1</span>*<span style="color: #ff4500;">2</span>*<span style="color: #ff4500;">3</span>*<span style="color: #ff4500;">4</span>*<span style="color: #ff4500;">5</span>*<span style="color: #ff4500;">6</span>*<span style="color: #ff4500;">7</span>*
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 3 #########</span>
+<span style="color: #ff4500;">100</span>*<span style="color: #ff4500;">80</span>*<span style="color: #ff4500;">60</span>*
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 4 #########</span>
+<span style="color: #ff4500;">9</span>*<span style="color: #ff4500;">8</span>*<span style="color: #ff4500;">7</span>*<span style="color: #ff4500;">6</span>*<span style="color: #ff4500;">5</span>*<span style="color: #ff4500;">4</span>*<span style="color: #ff4500;">3</span>*<span style="color: #ff4500;">1</span>*<span style="color: #ff4500;">0</span>*
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 5 #########</span>
+<span style="color: #ff4500;">25</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 6 #########</span>
+<span style="color: #ff4500;">105</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 7 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+i <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">2</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n % i <span style="color: #66cc66;">!=</span> <span style="color: #ff4500;">0</span>:
+    i +<span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>i<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 8 #########</span>
+nn <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> nn + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">if</span> i <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">5</span> <span style="color: #ff7700;font-weight:bold;">or</span> <span style="color: #ff4500;">9</span> <span style="color: #66cc66;">&lt;</span> i <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">17</span> <span style="color: #ff7700;font-weight:bold;">or</span> <span style="color: #ff4500;">37</span> <span style="color: #66cc66;">&lt;</span> i <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">78</span> <span style="color: #ff7700;font-weight:bold;">or</span> i <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">87</span>:
+        <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>i<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 10 #########</span>
+Да
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 11 #########</span>
+Нет
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 12 #########</span>
+Да</pre>
 		</details>
 		<details>
-			<summary></summary>
+			<summary>7.7</summary>
+			<pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">######## 3 #########</span>
+count <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span>
+p <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">11</span><span style="color: black;">&#41;</span>:
+    x <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">if</span> x <span style="color: #66cc66;">&gt;=</span> <span style="color: #ff4500;">0</span>:
+        p <span style="color: #66cc66;">=</span> p * x
+        count <span style="color: #66cc66;">=</span> count + <span style="color: #ff4500;">1</span>
+<span style="color: #ff7700;font-weight:bold;">if</span> count <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">0</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>count<span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>p<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">else</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'NO'</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 4 #########</span>
+mx <span style="color: #66cc66;">=</span> -<span style="color: #ff4500;">10</span>**<span style="color: #ff4500;">6</span> - <span style="color: #ff4500;">1</span>
+s <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">10</span><span style="color: black;">&#41;</span>:
+    x <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">if</span> x <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">0</span>:
+        s +<span style="color: #66cc66;">=</span> x
+    <span style="color: #ff7700;font-weight:bold;">if</span> x <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">0</span> <span style="color: #ff7700;font-weight:bold;">and</span> x <span style="color: #66cc66;">&gt;</span> mx:
+        mx <span style="color: #66cc66;">=</span> x
+<span style="color: #ff7700;font-weight:bold;">if</span> s <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">0</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>s<span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>mx<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">else</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'NO'</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 5 #########</span>
+s <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">7</span><span style="color: black;">&#41;</span>:
+    n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">if</span> n % <span style="color: #ff4500;">2</span> <span style="color: #66cc66;">==</span> <span style="color: #ff4500;">0</span>:
+        s <span style="color: #66cc66;">=</span> s + n
+&nbsp;
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>s<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 6 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+max_digit <span style="color: #66cc66;">=</span> -<span style="color: #ff4500;">1</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">0</span>:
+    digit <span style="color: #66cc66;">=</span> n % <span style="color: #ff4500;">10</span>
+    <span style="color: #ff7700;font-weight:bold;">if</span> digit % <span style="color: #ff4500;">3</span> <span style="color: #66cc66;">==</span> <span style="color: #ff4500;">0</span>:
+        <span style="color: #ff7700;font-weight:bold;">if</span> digit <span style="color: #66cc66;">&gt;</span> max_digit:
+            max_digit <span style="color: #66cc66;">=</span> digit
+    n <span style="color: #66cc66;">=</span> n // <span style="color: #ff4500;">10</span>
+<span style="color: #ff7700;font-weight:bold;">if</span> max_digit <span style="color: #66cc66;">==</span> -<span style="color: #ff4500;">1</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'NO'</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">else</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>max_digit<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 7 #########</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#91;</span><span style="color: #ff4500;">0</span><span style="color: black;">&#93;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 8 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+product <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">0</span>:
+    digit <span style="color: #66cc66;">=</span> n % <span style="color: #ff4500;">10</span>
+    product *<span style="color: #66cc66;">=</span> digit
+    n //<span style="color: #66cc66;">=</span> <span style="color: #ff4500;">10</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>product<span style="color: black;">&#41;</span></pre>
 		</details>
 		<details>
-			<summary></summary>
+			<summary>7.8</summary>
+			<pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">######## 2 #########</span>
+<span style="color: #ff4500;">1</span> <span style="color: #ff4500;">3</span>
+<span style="color: #ff4500;">1</span> <span style="color: #ff4500;">4</span>
+<span style="color: #ff4500;">1</span> <span style="color: #ff4500;">5</span>
+<span style="color: #ff4500;">2</span> <span style="color: #ff4500;">3</span>
+<span style="color: #ff4500;">2</span> <span style="color: #ff4500;">4</span>
+<span style="color: #ff4500;">2</span> <span style="color: #ff4500;">5</span>
+<span style="color: #ff4500;">3</span> <span style="color: #ff4500;">3</span>
+<span style="color: #ff4500;">3</span> <span style="color: #ff4500;">4</span>
+<span style="color: #ff4500;">3</span> <span style="color: #ff4500;">5</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 3 #########</span>
+<span style="color: #ff4500;">455667</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 4 #########</span>
+<span style="color: #ff4500;">8</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 5 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span>n<span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">3</span><span style="color: black;">&#41;</span>:
+        <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>n<span style="color: #66cc66;">,</span> end<span style="color: #66cc66;">=</span><span style="color: #483d8b;">' '</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 6 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span>n<span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: black;">&#40;</span><span style="color: #008000;">str</span><span style="color: black;">&#40;</span>i+<span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span> + <span style="color: #483d8b;">' '</span><span style="color: black;">&#41;</span>*<span style="color: #ff4500;">5</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 7 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> n+<span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">10</span><span style="color: black;">&#41;</span>:
+        <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'{0} + {1} = {2}'</span>.<span style="color: black;">format</span><span style="color: black;">&#40;</span>i<span style="color: #66cc66;">,</span> j<span style="color: #66cc66;">,</span> i+j<span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 8 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> n + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'*'</span> * <span style="color: #008000;">min</span><span style="color: black;">&#40;</span>i<span style="color: #66cc66;">,</span> n - i + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 9 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> n+<span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #008000;">str</span><span style="color: black;">&#40;</span>i<span style="color: black;">&#41;</span>*i<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 11 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+k <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">4</span>
+m <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">7</span>
+&nbsp;
+или
+n <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">2</span>
+k <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+m <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">9</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 12 #########</span>
+Количество быков: <span style="color: #ff4500;">1</span>
+Количество коров: <span style="color: #ff4500;">9</span>
+Количество телят: <span style="color: #ff4500;">90</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 13 #########</span>
+<span style="color: #ff4500;">498</span></pre>
 		</details>
 		<details>
-			<summary></summary>
+			<summary>7.9</summary>
+<pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">######## 1 #########</span>
+p <span style="color: #66cc66;">=</span><span style="color: #ff4500;">0</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span>n<span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span>i + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+        <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>p+<span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> end<span style="color: #66cc66;">=</span><span style="color: #483d8b;">' '</span><span style="color: black;">&#41;</span>
+        p+<span style="color: #66cc66;">=</span><span style="color: #ff4500;">1</span>
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 2 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> n + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">2</span> * i<span style="color: black;">&#41;</span>:
+        <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #008000;">min</span><span style="color: black;">&#40;</span>j<span style="color: #66cc66;">,</span> <span style="color: #ff4500;">2</span> * i - j<span style="color: black;">&#41;</span><span style="color: #66cc66;">,</span> end<span style="color: #66cc66;">=</span><span style="color: #483d8b;">''</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 3 #########</span>
+a<span style="color: #66cc66;">,</span> b <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span><span style="color: #66cc66;">,</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #008000;">sum</span><span style="color: #66cc66;">,</span> bigsum<span style="color: #66cc66;">,</span> num<span style="color: #66cc66;">,</span> bignum <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">0</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">0</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span>a<span style="color: #66cc66;">,</span> b + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> i + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+        <span style="color: #ff7700;font-weight:bold;">if</span> i // j <span style="color: #66cc66;">==</span> i / j:
+            <span style="color: #008000;">sum</span> +<span style="color: #66cc66;">=</span> j
+            num <span style="color: #66cc66;">=</span> i
+    <span style="color: #ff7700;font-weight:bold;">if</span> <span style="color: #008000;">sum</span> <span style="color: #66cc66;">&gt;</span> bigsum:
+        bignum <span style="color: #66cc66;">=</span> num
+        bigsum <span style="color: #66cc66;">=</span> <span style="color: #008000;">sum</span>
+    <span style="color: #ff7700;font-weight:bold;">if</span> <span style="color: #008000;">sum</span> <span style="color: #66cc66;">==</span> bigsum:
+        bignum <span style="color: #66cc66;">=</span> <span style="color: #008000;">max</span><span style="color: black;">&#40;</span>num<span style="color: #66cc66;">,</span> bignum<span style="color: black;">&#41;</span>
+        bigsum <span style="color: #66cc66;">=</span> <span style="color: #008000;">sum</span>
+    num<span style="color: #66cc66;">,</span> <span style="color: #008000;">sum</span> <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>bignum<span style="color: #66cc66;">,</span> bigsum<span style="color: black;">&#41;</span>
+&nbsp;
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 4 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> n+<span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>i<span style="color: #66cc66;">,</span> end <span style="color: #66cc66;">=</span> <span style="color: #483d8b;">''</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> i+<span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+        <span style="color: #ff7700;font-weight:bold;">if</span> i%j <span style="color: #66cc66;">==</span> <span style="color: #ff4500;">0</span>:
+            <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'+'</span><span style="color: #66cc66;">,</span> end <span style="color: #66cc66;">=</span> <span style="color: #483d8b;">''</span><span style="color: black;">&#41;</span>
+    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 5 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">while</span> n // <span style="color: #ff4500;">10</span> <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">0</span>:
+    n <span style="color: #66cc66;">=</span> n // <span style="color: #ff4500;">10</span> + n % <span style="color: #ff4500;">10</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>n<span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 6 #########</span>
+n <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+a <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">1</span>
+b <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">0</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span> n + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    a *<span style="color: #66cc66;">=</span> i
+    b +<span style="color: #66cc66;">=</span> a
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>b<span style="color: black;">&#41;</span>
+&nbsp;
+&nbsp;
+<span style="color: #808080; font-style: italic;">######## 7 #########</span>
+a<span style="color: #66cc66;">,</span> b<span style="color: #66cc66;">,</span> <span style="color: #66cc66;">=</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span><span style="color: #66cc66;">,</span> <span style="color: #008000;">int</span><span style="color: black;">&#40;</span><span style="color: #008000;">input</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span>a<span style="color: #66cc66;">,</span> b + <span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>:
+    <span style="color: #ff7700;font-weight:bold;">if</span> i <span style="color: #66cc66;">==</span> <span style="color: #ff4500;">1</span>:
+        <span style="color: #ff7700;font-weight:bold;">continue</span>
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">2</span><span style="color: #66cc66;">,</span> i<span style="color: black;">&#41;</span>:
+        <span style="color: #ff7700;font-weight:bold;">if</span> i % j <span style="color: #66cc66;">==</span> <span style="color: #ff4500;">0</span>:
+            <span style="color: #ff7700;font-weight:bold;">break</span>
+    <span style="color: #ff7700;font-weight:bold;">else</span>:
+        <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span>i<span style="color: black;">&#41;</span></pre>
 		</details>
 		<details>
 			<summary></summary>
