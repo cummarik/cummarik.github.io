@@ -12,8 +12,10 @@ let config = {
   // Социальные сети
   social: {
     telegram: '@cummarik',
+	instagram: 'nndushnila',
+	vk: 'danko_jun', 
     steam: 'cummarik',
-    vk: 'danko_jun', 
+    github: 'cummarik',
   },
 
 

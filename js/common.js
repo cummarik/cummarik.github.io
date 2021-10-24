@@ -58,15 +58,21 @@ function init() {
             username = username.replace('@', '');
             return `https://t.me/${username}`;
           },
-    
+		
+		  instagram(data) {
+            let username = data.trim();
+            username = username.replace('@', '');
+            return `https://www.instagram.com/${username}`;
+          },
+		  
           steam(data) {
             let username = data.trim();
             return `https://steamcommunity.com/id/${username}`;
           },
 		  
-		   fastcup(data) {
+		  github(data) {
             let username = data.trim();
-            return `https://cs.fastcup.net/${username}`;
+            return `https://github.com/${username}`;
           },
     
           vk(data) {
