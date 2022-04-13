@@ -4,7 +4,7 @@ let config = {
   preloaderDelay: 1,
 
   // Задержка появления видео (4.2 секунды)
-  showDelay: 2.5, 
+  showDelay: 5.0, 
 
   // Заголовок
   title: 'cummarik',
