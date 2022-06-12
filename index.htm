@@ -65,8 +65,13 @@
 				font-size:22px;
 				box-sizing: border-box;
 			}
+			
+			<!-- .logo { -->
+				<!-- font-size: 20px; -->
+			<!-- } -->
+			
 			#data {
-			font-size:24px;
+				font-size:24px;
 			}
 			
 			.marquee p {
@@ -75,6 +80,7 @@
 				animation: marquee 15s linear infinite;
 			}
 
+			
 			@keyframes marquee {
 				0%   { transform: translate(0, 0); }
 				100% { transform: translate(-100%, 0); }
@@ -85,8 +91,7 @@
 	<body>
 		<canvas id="swarm"></canvas>
 		<div id="overlay" onclick="music.play();"><span class="center info" id="status_text"></span></div>
-		<pre class="center" onselectstart="return false" style="cursor: default;">
-		
+		<pre class="center logo" onselectstart="return false" style="cursor: default;">
   ______   __    __  __       __  __       __   ______   _______   ______  __    __ 
  /      \ /  |  /  |/  \     /  |/  \     /  | /      \ /       \ /      |/  |  /  |
 /$$$$$$  |$$ |  $$ |$$  \   /$$ |$$  \   /$$ |/$$$$$$  |$$$$$$$  |$$$$$$/ $$ | /$$/ 
@@ -99,7 +104,6 @@ $$    $$/ $$    $$/ $$ | $/  $$ |$$ | $/  $$ |$$ |  $$ |$$ |  $$ |/ $$   |$$ | $
                                                                                     
                                                                                     
                                                                                     
-
 		</pre>
 		<div class="center" id="data" style="opacity: 0%; margin-top: 120px; text-align: center;">
 			<a href="https://steamcommunity.com/id/cummarik">steam</a>
